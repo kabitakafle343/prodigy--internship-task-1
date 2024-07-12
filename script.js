@@ -4,7 +4,7 @@ function scrollCheck(){
     let scroll=window.scrollY;
     console.log(scroll);
     if(scroll<100){
-nav.style.backgroundColor="rgb(61, 135, 179";
+nav.style.backgroundColor="rgb(61, 135, 179)";
     }else{
         nav.style.backgroundColor="brown";
 
