@@ -23,7 +23,5 @@ window.addEventListener("scroll",scrollCheck)
 
 
 
-function scrollToSection(id) {
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-}
+
 
