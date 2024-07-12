@@ -115,27 +115,29 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 550px)   {
     nav h1 {
         font-size: 20px;
     }  
     nav ul {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
     }
     nav ul li {
         list-style: none;
-        font-size: 18px;
+        font-size: 13px;
+        text-align: center;
         cursor: pointer;
         transition: color 0.3s;
     }
     nav {
         display: flex;
         align-items: center;
+        text-align: center;
         justify-content: space-between;
         align-items: center;
-        padding: 30px 5px;
+        padding: 30px 15px;
         background-color: #3d87b3;
         color: white;
         position: fixed;
@@ -147,3 +149,34 @@ footer {
 
 
 
+
+@media only screen and (max-width: 1000px) and (min-width: 551px) {
+    nav h1 {
+        font-size: 34px;
+    } 
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: 24px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 25px;
+        background-color: #3d87b3;
+        color: white;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+}
